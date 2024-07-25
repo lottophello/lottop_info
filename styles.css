@@ -1,0 +1,55 @@
+a
+{
+    background-color: black;
+	font-size: 30px;
+    color: #fff;
+    box-shadow: inset -50px -50px 100px #F5DEB3;
+    text-decoration: none;
+    text-align: center;
+    border: black;
+}
+body {
+    background-color:  #F5DEB3;
+}
+p {
+    font-size: 20px;
+}
+.my_dost {
+    background:#FFD39B;
+}
+.s1{
+    background-color: #F5DEB3; /* Зеленый цвет */
+  
+  border: none;
+  color: rgb(192, 159, 119);
+}
+.s2{
+    background-color: #F5DEB3; /* Зеленый цвет */
+    border: none;
+    color: rgb(192, 159, 119);
+  }
+.s3{
+  background-color: #F5DEB3; /* Зеленый цвет */
+  border: none;
+  color: rgb(192, 159, 119);
+}
+.lotos{
+    overflow-x: center;
+}
+.links{
+    background: #FFE7BA;
+}
+.news_lot{
+    color: #8f7331;
+    background: #ffbd43;
+}
+.my_channels{
+    color: rgb(192, 159, 119);
+}
+
+.s1:hover { background: #f6e5c6; } /* при наведении курсора мышки */
+.s1:active { background:#c0b093; } /* при нажатии */
+.s2:hover { background: #f6e5c6; } /* при наведении курсора мышки */
+.s2:active { background: #c0b093; } /* при нажатии */
+.s3:hover {  background: #f6e5c6;  } /* при наведении курсора мышки */
+.s3:active { background: #c0b093; } /* при нажатии */
