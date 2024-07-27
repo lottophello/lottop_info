@@ -1,3 +1,10 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #c78b1d;
+    --bg-color: #372709;
+    --container-color: #2b2314;
+  }
+}
 @media screen and (width < 768px) {
   header {
     padding: 10px 20px;
