@@ -1,0 +1,105 @@
+@media screen and (width < 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+  }
+
+  .image,
+  .social {
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 10px 10px;
+
+    flex-direction: column;
+    gap: 10px;
+
+    h2 {
+      margin: 10px auto;
+    }
+
+    hr {
+      display: block;
+    }
+  }
+
+  #support {
+    width: 100%;
+
+    div {
+      width: 100%;
+    }
+  }
+
+  .biography,
+  .news {
+    max-width: none;
+  }
+}
+
+@media screen and (width < 500px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* На экранах смартфонах оно выглядит лучше, чем space-between */
+    justify-content: center;
+  }
+
+  .lotos {
+    display: none;
+  }
+}
+
+@media screen and (width < 400px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .lotos {
+    display: none;
+  }
+}
+
+@media screen and (width < 300px) {
+  * {
+    display: none;
+  }
+
+  html,
+  body,
+  .buy,
+  .buy * {
+    display: inline-block;
+    font-size: xx-large;
+    text-wrap: wrap;
+  }
+
+  header,
+  main,
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (width > 1700px) {
+  header {
+    justify-content: space-evenly;
+  }
+
+  main {
+    justify-content: center;
+  }
+}
