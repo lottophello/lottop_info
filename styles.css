@@ -9,7 +9,7 @@ ul.achievements {
   list-style-type: none;
 
   li::before {
-    content: url("svg/bullet.svg");
+    content: url("bullet.svg");
     padding-right: 5px;
   }
 }
