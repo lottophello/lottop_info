@@ -1,58 +1,134 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <img src="icon.png" alt="lot" class = "lotos">
-        <h1 align="center">ЛотТоп</h1>
-        <div class="info">
-        <p align="center"> Я Матвей , мне 12 лет , живу в России<br>Делаю игры и сайты(У меня только в итоге 1 сайт и 1 демо версия)<br>Также у меня есть кот Миша <br> И 2 попугая</p>
-        </div>
-        <hr>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <div class="sociallinks">
-            
-            <ul class="links">
-            <h1 class="my_channels">Ссылки на мои каналы</h1>
-            
-            <li><a class="s1" href="https://www.youtube.com/@ЛотТоп;">Мой ютуб</a></li>
-            <li><a class="s2" href="https://rutube.ru/channel/31740046/;">Мой рутуб</a></li>
-            <li><a class="s3" href="https://t.me/lottophelloisfun;">Мой телеграмм канал</a></li>
-        </ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Play:wght@400;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <title>Сайт ЛотТопа</title>
+  </head>
+  <body>
+    <div class="buy">
+      LAF
     </div>
-        <div class = "news_lot">
-            <h1>Новости</h1>
-            <article>
-                <header>
-                    <h1>Новый сайт?!</h1>
-                    <p>Я решил сделать сайт к моему каналу <br>что сюда публиковать новости </p>
-                    
-                </header>
-            </article>
-            <article>
-                <header>
-                    <h1>Насчёт прямых трансляций:</h1>
-                    <p>Я думаю что трансляции будут<br>В школьное время и то не часто</p>
-                    
-                </header>
-            </article>
-            <a href="news.html">Подробнее</a>
+
+    <header>
+      <div class="image">
+        <img src="icon.png" alt="lot" class="lotos noselect" />
+        <h1>ЛотТоп</h1>
+      </div>
+
+      <div class="social">
+        <a class="noselect" href="https://www.youtube.com/@ЛотТоп">
+          <img src="svg/youtube.svg" alt="youtube" />
+        </a>
+        <a class="noselect" href="https://rutube.ru/channel/31740046/">
+          <img src="svg/rutube.svg" alt="rutube" />
+        </a>
+        <a class="noselect" href="https://t.me/lottophelloisfun">
+          <img src="svg/telegram.svg" alt="telegram" />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="biography">
+        <div class="title">
+          <h2>Обо мне</h2>
+          <hr />
         </div>
-        <hr>
-        
-        <div class="my_dost"><h2>Мои достижения:</h2>
-        <p>
-            50 подписок &#9989<br>
-            100 подписок &#9989<br>
-            200 подписок &#9989<br>
-            300 подписок &#9989<br>
-        </p></div>
-        <hr>
-        <footer>
-            <h1>С уважением ЛотТоп!</h1>
-        
-        
-        </footer>
-    </body>
+
+        <div class="content">
+          <div class="container">
+            <h3>Биография</h3>
+            <p>
+              Я Матвей, мне 12 лет. Живу в России, делаю игры и сайты. Также у
+              меня есть кот Миша и два попугая
+            </p>
+          </div>
+
+          <div class="container">
+            <h3>Портфолио</h3>
+            <p>Один сайт и одна демо версия</p>
+          </div>
+
+          <div class="container">
+            <h3>Достижения</h3>
+            <ul class="achievements">
+              <li class="noselect">50 подписок</li>
+              <li class="noselect">100 подписок</li>
+              <li class="noselect">200 подписок</li>
+              <li class="noselect">300 подписок</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="news">
+        <div class="title">
+          <h2>Новости</h2>
+          <hr />
+        </div>
+
+        <div class="content">
+          <div class="container">
+            <h3>Новый сайт</h3>
+            <p>
+              Я решил сделать сайт к моему каналу, чтобы публиковать здесь
+              новости
+            </p>
+          </div>
+
+          <div class="container">
+            <h3>Насчет прямых трансляции:</h3>
+            <p>Я думаю, что трансляции будут в школьное время, и то не часто</p>
+          </div>
+        </div>
+        <a href = "news.html" class="follower">Подробнее</a>
+      </div>
+    </main>
+
+    <footer>
+      <div id="support" class="noselect">
+        <div>
+          <span>Структура сайта:</span>
+          <a href = "https://github.com/lottophello">ЛотТоп</a>
+        </div>
+        <div>
+          <span>спасибо за код:</span
+          ><a href="https://github.com/FOCKUSTY" target="_blank" rel="noopener">
+            FOCKUSTY
+          </a>
+          
+        </div>
+
+        <div>
+          <span>спасибо за дизайн:</span>
+          <a href="https://github.com/aculaOne" target="_blank" rel="noopener">
+            aculaOne
+          </a>
+        </div>
+      </div>
+
+      <hr />
+      <h2>С уважением ЛотТоп!</h2>
+    </footer>
+  </body>
 </html>
